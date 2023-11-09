@@ -2,7 +2,7 @@
 import * as dotenv from 'dotenv';
 dotenv.config();
 
-import { Bot, Context,BotConfig, InlineKeyboard} from 'grammy';
+import { Bot, Context,InlineKeyboard} from 'grammy';
 
 import { env } from './config/env-config';
 

@@ -6,6 +6,6 @@ config()
         TOKEN:str()
     })
 
- export const env1 = cleanEnv(process.env,{
-    MY_WEATHER:str()
+    export const env1 = cleanEnv(process.env,{
+        MY_WEATHER:str()
 })
